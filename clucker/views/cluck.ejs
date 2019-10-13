@@ -1,0 +1,20 @@
+<%- include("./partials/header") %>
+<div class="signIn">
+
+
+  <form action="/clucks" method="POST" class="form-inline">
+      <label for="content">Content</label>
+      <input class="input" type="text" name="content" placeholder="What's cluckin'?">
+
+      <br>
+
+      <label for="imgurl">Image URL</label>
+      <input class="input" type="text" name="img_url" placeholder="https://i.imgur.com/q3UXp3w.jpg">
+
+      <button class= 'btn' type="submit" value="Submit Cluck">Cluck!</button>
+
+  </form>
+  
+
+</div>
+<%- include("./partials/footer") %>
